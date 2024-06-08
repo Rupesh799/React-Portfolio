@@ -1,10 +1,8 @@
 import React from 'react'
 import "./Experience.css"
-import { VscDebugBreakpointLogUnverified } from "react-icons/vsc";
 import { FaCss3, FaHtml5, FaJs, FaReact } from 'react-icons/fa6';
-import { Ri24HoursLine, RiFlutterFill, RiGithubFill, RiNextjsFill, RiTailwindCssFill } from 'react-icons/ri';
+import {  RiFlutterFill, RiGithubFill, RiNextjsFill, RiTailwindCssFill } from 'react-icons/ri';
 import { SiDjango, SiMysql, SiTypescript } from 'react-icons/si';
-import { DiDjango } from 'react-icons/di';
 // import { MdHtml } from "react-icons/md";
 const Experience = () => {
   return (
