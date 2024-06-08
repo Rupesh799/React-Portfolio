@@ -15,7 +15,7 @@ const Services = () => {
           <ul>
             <li>
               <BsArrowReturnRight className="service_icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Design webpages .</p>
             </li>
             <li>
               <BsArrowReturnRight className="service_icon" />
@@ -59,7 +59,7 @@ const Services = () => {
         </div>
       </article>
       {/*second items end */}
-      <article className="services">
+      {/* <article className="services">
         <div className="service_header">
           <h3>Backend Development</h3>
         </div>
@@ -83,7 +83,7 @@ const Services = () => {
             </li>
           </ul>
         </div>
-      </article>
+      </article> */}
       {/*third items end */}
     </div>
   </section>

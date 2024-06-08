@@ -36,7 +36,7 @@ const Contact = () => {
         <article className="contact-info">
           <SiGmail className="icons" />
           <h4>Email</h4>
-          <h5>abc.123@gmail.com</h5>
+          <h5>Rupesh Khatri</h5>
           <a href="mailto:rupeshkhatri9816@gmail.com">Send Message</a>
         </article>
 

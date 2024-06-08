@@ -1,7 +1,6 @@
 import React from 'react'
 import "./About.css"
 import { FaAward } from "react-icons/fa";
-import { FiUsers } from "react-icons/fi";
 import { AiOutlineFundProjectionScreen } from "react-icons/ai";
 import profile from "../../Assets/user3.jpg";
 const About = () => {
@@ -22,26 +21,28 @@ const About = () => {
             <article className="about_info">
               <FaAward className="about_icon" />
               <h5>Experience</h5>
-              <small>2+ years working</small>
+              <small>1 year working</small>
             </article>
 
-            <article className="about_info">
+            {/* <article className="about_info">
               <FiUsers className="about_icon" />
               <h5>Clients</h5>
               <small>100+ Clients </small>
-            </article>
+            </article> */}
+            {/* <article className="about_info">
+              <FiUsers className="about_icon" />
+              <h5></h5>
+              <small>100+ Clients </small>
+            </article> */}
 
             <article className="about_info">
               <AiOutlineFundProjectionScreen className="about_icon" />
               <h5>Projects</h5>
-              <small>20+ Projects Done</small>
+              <small>10+ Projects Done</small>
             </article>
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
-            consectetur magni nemo eum vero fugiat. Minima inventore ullam sunt
-            ratione natus ipsum, dicta nisi quasi nobis molestias dolore,
-            laborum facere!
+            Hi, My name is Rupesh Khatri. Introducing myself as a frontend developer.
           </p>
 
           <a href="#contact" className="btn btn_primary">

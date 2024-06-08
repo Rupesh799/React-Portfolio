@@ -1,6 +1,11 @@
 import React from 'react'
 import "./Experience.css"
 import { VscDebugBreakpointLogUnverified } from "react-icons/vsc";
+import { FaCss3, FaHtml5, FaJs, FaReact } from 'react-icons/fa6';
+import { Ri24HoursLine, RiFlutterFill, RiGithubFill, RiNextjsFill, RiTailwindCssFill } from 'react-icons/ri';
+import { SiDjango, SiMysql, SiTypescript } from 'react-icons/si';
+import { DiDjango } from 'react-icons/di';
+// import { MdHtml } from "react-icons/md";
 const Experience = () => {
   return (
     <section id="experience">
@@ -8,97 +13,69 @@ const Experience = () => {
       <h2>Experience</h2>
       {/*main container*/}
       <div className="container experience_container">
-        <div className="exp_frontend">
-          <h3>Frontend </h3>
+        {/* <div className="exp_frontend"> */}
+          {/* <h3>Frontend </h3> */}
           <div className="exp_content">
-            <article className="exp_info">
-              <VscDebugBreakpointLogUnverified className="exp_icons" />
-              <div>
-                <h4>HTML</h4>
-                <small>Experienced</small>
-              </div>
-            </article>
+              
+              <div className='exp_info'>
+              <FaHtml5 color='brown'/>
 
-            <article className="exp_info">
-              <VscDebugBreakpointLogUnverified className="exp_icons" />
-              <div>
-                <h4>CSS</h4>
-                <small>Intermediate</small>
               </div>
-            </article>
 
-            <article className="exp_info">
-              <VscDebugBreakpointLogUnverified className="exp_icons" />
-              <div>
-                <h4>Javascript</h4>
-                <small>Beginner</small>
-              </div>
-            </article>
+              <div className='exp_info'>
+              <FaCss3 color='lightblue'/>
 
-            <article className="exp_info">
-              <VscDebugBreakpointLogUnverified className="exp_icons" />
-              <div>
-                <h4>React Js</h4>
-                <small>Beginner</small>
               </div>
-            </article>
 
-            <article className="exp_info">
-              <VscDebugBreakpointLogUnverified className="exp_icons" />
-              <div>
-                <h4>Bootstrap</h4>
-                <small>Intermediate</small>
-              </div>
-            </article>
+              <div className='exp_info'>
+              <FaJs color='yellow'/>
 
-            <article className="exp_info">
-              <VscDebugBreakpointLogUnverified className="exp_icons" />
-              <div>
-                <h4>Tailwind CSS</h4>
-                <small>Beginner</small>
               </div>
-            </article>
-          </div>
-          {/*end exp_content */}
+
+              <div className='exp_info'>
+              <FaReact color='skyblue'/>
+
+              </div>
+
+              <div className='exp_info'>
+              <RiNextjsFill color=''/>
+
+              </div>
+
+              <div className='exp_info'>
+              <RiTailwindCssFill color=''/>
+
+              </div>
+
+              <div className='exp_info'>
+              <RiFlutterFill color=''/>
+
+              </div>
+         
+        
+          <div className='exp_info'>
+              <SiMysql color='orange'/>
+
+              </div>
+
+              <div className='exp_info'>
+              <RiGithubFill color='black'/>
+
+              </div>
+
+            <div className='exp_info'>
+              <SiTypescript color='lightblue'/>
+
+              </div>
+              <div className='exp_info'>
+              <SiDjango color='green'/>
+
+              </div>
+
+           
+             {/*end exp_content */}
         </div>
-        {/*end exp_frontend */}
-        <div className="exp_backend">
-          <h3>Backend </h3>
-          <div className="exp_content">
-            <article className="exp_info">
-              <VscDebugBreakpointLogUnverified className="exp_icons" />
-              <div>
-                <h4>PHP/My SQL</h4>
-                <small>Intermediate</small>
-              </div>
-            </article>
-
-            <article className="exp_info">
-              <VscDebugBreakpointLogUnverified className="exp_icons" />
-              <div>
-                <h4>MongoDB</h4>
-                <small>Beginner</small>
-              </div>
-            </article>
-
-            <article className="exp_info">
-              <VscDebugBreakpointLogUnverified className="exp_icons" />
-              <div>
-                <h4>NodeJS</h4>
-                <small>Beginner</small>
-              </div>
-            </article>
-
-            <article className="exp_info">
-              <VscDebugBreakpointLogUnverified className="exp_icons" />
-              <div>
-                <h4>Express Js</h4>
-                <small>Beginner</small>
-              </div>
-            </article>
-          </div>
-        </div>
-        {/*end exp_backend */}
+         
       </div>
       {/*end experience_container */}
     </section>
