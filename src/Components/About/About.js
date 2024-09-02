@@ -2,7 +2,7 @@ import React from 'react'
 import "./About.css"
 import { FaAward } from "react-icons/fa";
 import { AiOutlineFundProjectionScreen } from "react-icons/ai";
-import profile from "../../Assets/user3.jpg";
+import profile from "../../Assets/rupesh.JPG";
 const About = () => {
   return (
     <section id="about">
@@ -24,16 +24,7 @@ const About = () => {
               <small>1 year working</small>
             </article>
 
-            {/* <article className="about_info">
-              <FiUsers className="about_icon" />
-              <h5>Clients</h5>
-              <small>100+ Clients </small>
-            </article> */}
-            {/* <article className="about_info">
-              <FiUsers className="about_icon" />
-              <h5></h5>
-              <small>100+ Clients </small>
-            </article> */}
+          
 
             <article className="about_info">
               <AiOutlineFundProjectionScreen className="about_icon" />

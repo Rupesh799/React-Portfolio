@@ -52,12 +52,13 @@ header {
   /* =================picture================== */
   .picture {
     background: linear-gradient(var(--color-primary), transparent);
-    width: 18rem;
-    height: 20rem;
+    width: 13rem;
+    height: 15rem;
     position: absolute;
-    left: calc(50% - 9rem);
+    left: calc(50% - 7rem);
     border-radius: 12rem 12rem 0 0;
     margin-top: 10rem;
+    padding: 2rem 0 0 0rem;
   }
   /* ================scroll btn============= */
   .Scroll {

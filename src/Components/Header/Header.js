@@ -2,7 +2,7 @@ import React from 'react'
 import Headbtn from './Headbtn'
 import "./Header.css"
 import HeaderIcon from './HeaderIcon'
-import profile1 from "../../Assets/user3.png"
+import profile1 from "../../Assets/profile.png"
 const Header = () => {
   return (
     
